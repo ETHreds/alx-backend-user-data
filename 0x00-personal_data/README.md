@@ -1,4 +1,4 @@
-Learning Objectives
+gLearning Objectives
 
 Examples of Personally Identifiable Information (PII)
 How to implement a log filter that will obfuscate PII fields
