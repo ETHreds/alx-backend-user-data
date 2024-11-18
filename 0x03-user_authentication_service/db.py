@@ -68,6 +68,14 @@ class DB:
             raise InvalidRequestError("Unsupported operation.")
 
     def update_user(self, user_id: int, **updates) -> None:
+        """
+        Update users  details
+        ARGS:
+         user-id, updates
+
+        Return None
+        """
+
         user = self.find_user_by(id=user_id)
 
         for key,value in updates.items():
